@@ -2,7 +2,7 @@
 
 # Mehdi Khodakarami
 
-**AI & Android Engineer**
+### AI &amp; Android Engineer
 
 مهندس هوش مصنوعی و اندروید
 
@@ -16,7 +16,26 @@
 
 ## About
 
-B.Sc. in Computer Science, Kharazmi University. I work across Artificial Intelligence / Machine Learning and Android development — from training and deploying deep-learning models to building modern Android applications.
+I am a Computer Science graduate of Kharazmi University working across two complementary disciplines: **Artificial Intelligence / Machine Learning** and **Android development**.
+
+My work covers the full engineering lifecycle — from data preparation, model design, training, and evaluation, to building and shipping well-architected applications. I take an interest in writing clean, maintainable, and thoroughly tested software, and I enjoy taking a project from an initial idea through to a finished, working product.
+
+---
+
+## Areas of Expertise
+
+### Artificial Intelligence &amp; Machine Learning
+- Deep learning with custom CNN architectures (e.g. SE-ResNet) and transformer models (e.g. mT5)
+- Computer vision — image classification, object and hazard detection, and on-device (edge) inference
+- Natural language processing — text summarization, sentiment analysis, and keyword extraction
+- Complete machine-learning workflow — data pipelines, training, evaluation, threshold calibration, and deployment
+
+### Android Development
+- Declarative user interfaces with Jetpack Compose and Material Design
+- Clean Architecture and the MVVM pattern
+- Dependency injection with Hilt, local persistence with Room, and networking with Retrofit
+- Asynchronous programming with Kotlin Coroutines / Flow and RxJava
+- Authentication flows, including JWT with refresh-token rotation
 
 ---
 
@@ -49,6 +68,7 @@ B.Sc. in Computer Science, Kharazmi University. I work across Artificial Intelli
 ![Hilt](https://img.shields.io/badge/Hilt-2196F3?style=for-the-badge&logo=dagger&logoColor=white)
 ![Room](https://img.shields.io/badge/Room-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Retrofit](https://img.shields.io/badge/Retrofit-48B983?style=for-the-badge&logo=square&logoColor=white)
+![RxJava](https://img.shields.io/badge/RxJava-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
 ![Coroutines](https://img.shields.io/badge/Coroutines-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
 **Tools**
@@ -63,12 +83,31 @@ B.Sc. in Computer Science, Kharazmi University. I work across Artificial Intelli
 
 ## Featured Projects
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| **[lucidway](https://github.com/mehdikhodakarami/lucidway)** | Android assistant for blind and low-vision users, with on-device object and hazard detection and neural text-to-speech. | Kotlin · ONNX Runtime · YOLO |
-| **[facial-emotion-recognition](https://github.com/mehdikhodakarami/facial-emotion-recognition)** | Real-time facial emotion recognition (8 classes) using a custom SE-ResNet, reaching 77.9% test accuracy. | TensorFlow · Keras |
-| **[persian-review-summarizer-ml](https://github.com/mehdikhodakarami/persian-review-summarizer-ml)** | Review summarization combining a TextRank extractive method and an mT5 transformer, with sentiment and keyword analysis. | Python · scikit-learn · Transformers |
-| **[StudentOS](https://github.com/mehdikhodakarami/StudentOS)** | Android application for student productivity, built with Jetpack Compose and Clean Architecture. | Compose · Hilt · Room |
+**[lucidway](https://github.com/mehdikhodakarami/lucidway)**
+An accessibility-focused Android application that assists blind and low-vision users. It runs a dual-model object and hazard detection pipeline entirely on the device, applies perceptual priority scoring to what it detects, and communicates results through neural Persian text-to-speech.
+`Kotlin` · `ONNX Runtime` · `YOLO` · `Jetpack Compose`
+
+**[facial-emotion-recognition](https://github.com/mehdikhodakarami/facial-emotion-recognition)**
+Real-time facial emotion recognition across eight classes, based on a custom SE-ResNet architecture. The model reaches 77.9% test accuracy and is supported by a `tf.data` input pipeline, per-class threshold calibration, and live inference from a webcam.
+`TensorFlow` · `Keras` · `Computer Vision`
+
+**[persian-review-summarizer-ml](https://github.com/mehdikhodakarami/persian-review-summarizer-ml)**
+A review summarization system with two interchangeable engines — an extractive method based on TextRank and an abstractive transformer (mT5). It also provides sentiment analysis, keyword extraction, and a pros-and-cons breakdown.
+`Python` · `scikit-learn` · `Transformers`
+
+**[StudentOS](https://github.com/mehdikhodakarami/StudentOS)**
+An Android application for student productivity and daily organization, built with Jetpack Compose, Clean Architecture, and the MVVM pattern.
+`Kotlin` · `Jetpack Compose` · `Hilt` · `Room`
+
+**[RotbeYar](https://github.com/mehdikhodakarami/RotbeYar)**
+An Android application demonstrating Clean Architecture and MVVM, featuring phone-based authentication with JWT refresh-token rotation, Retrofit networking, and Room persistence.
+`Kotlin` · `Retrofit` · `Room`
+
+---
+
+## Education
+
+**B.Sc. in Computer Science** — Kharazmi University
 
 ---
 
@@ -76,8 +115,8 @@ B.Sc. in Computer Science, Kharazmi University. I work across Artificial Intelli
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mehdikhodakarami&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mehdikhodakarami&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mehdikhodakarami&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mehdikhodakarami&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Most used languages" />
 
 </div>
 
